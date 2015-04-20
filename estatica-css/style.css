@@ -1,0 +1,20 @@
+body {
+	margin:0 auto;
+	width:45%;
+	float:middle;	
+	font-family: Helvetica;
+	font-size:1.1em;
+	background-color: #FFEBCD;
+}
+
+header{
+	font-family: Tahoma;
+	font-size:0.9em;
+	}
+
+button {
+  font-family: Georgia;
+  font-size: 20px;
+
+}
+
