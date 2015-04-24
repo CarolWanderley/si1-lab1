@@ -30,45 +30,36 @@
 
 	
 	<body>
-
-
-
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1>Cadastre-se na disciplina!</h1>
-                    <hr class="star-primary">
+ <header class="intro">
+        <div class = "row"><br><br><br><br>
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2>Cadastre-se na disciplina</h2>
                 </div>
-            </div>
-
-             <!-- About Section -->
-<article>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h3>Digite suas informaçoes pessoais</h3>
-                <form action="agradecimento.html">
+                <div class="panel-body">
+                    <form action="agradecimento.html">
                         <div class="input-group">
-                            <span class="input-group-addon">Nome</span>
-                            <input type="text" name="name" class="form-control" placeholder="Nome Completo" required>
-                        </div>     
+                            <span class="input-group-addon">Nome completo</span>
+                            <input type="text" name="name" class="form-control" required>
+                        </div>   <br><br><br>  
                         <div class="input-group">
                             <span class="input-group-addon">Matrícula</span>
-                            <input type="text" name="id" class="form-control" placeholder="Matrícula" pattern="[0-9]{9}" required>
-                        </div>
+                            <input type="text" name="id" class="form-control" pattern="[0-9]{9}" required>
+                        </div> <br><br><br>
                         <div class="input-group">
                             <span class="input-group-addon">Email</span>
-                             <input type="text" name="email" class="form-control" 
-                                    placeholder="Email Acadêmico" pattern="[a-z0-9._%+-]+@ccc.ufcg.edu.br" required>
-                        </div>
-                
+                             <input type="email" name="email" class="form-control" required>
+                        </div><br><br><br>
+                        <div class="col-lg-12 text-center">
                         <button class="btn btn-success" type="submit">Cadastrar</button>
-
-        </form>
-          
-        </div></div>
-
-</article>
-
-
+                        </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
